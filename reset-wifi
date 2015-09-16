@@ -1,0 +1,5 @@
+#!/bin/bash
+# Reset network manager (for use when connection is poor)
+nmcli n off
+sleep 1
+nmcli n on
